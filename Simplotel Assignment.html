@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Design</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-title {
+            font-size: 18px;
+            margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-icon {
+            margin-left: 20px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .background-image {
+            background-image: url('img_back.jpg');
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .line {
+            width: 100%;
+            border-bottom: 2px solid #333;
+            margin: 20px 0;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .image {
+            width: 10px;
+            height: 10px;
+            text-align: left;
+            margin: 0 10px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-title">Home</div>
+        <div class="navbar-title">About</div>
+        <div class="navbar-title">Services</div>
+        <div class="navbar-title">Portfolio</div>
+        <div class="navbar-title">Contact</div>
+        <div class="navbar-title">Blog</div>
+        <div class="icons">
+            <div class="navbar-icon">Icon 1</div>
+            <div class="navbar-icon">Icon 2</div>
+        </div>
+    </div>
+
+    <div class="background-image">
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nullam eu urna vel neque tristique dignissim. Vivamus ac quam et elit interdum tincidunt. Integer vel convallis lacus, a ullamcorper lorem. Suspendisse potenti. Morbi ac est sed urna cursus cursus non nec elit. Ut a libero vitae dolor fermentum luctus. Integer vehicula finibus odio, ut cursus ligula tempus vitae. Nam vel nunc vel elit tincidunt laoreet. Sed sit amet dui at augue ullamcorper commodo eu nec eros.</p>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="images">
+        <div class="image">
+            <img src="pizza.jpg" alt="Pizza">
+            <div class="icon">Icon 1</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="image">
+            <img src="berger.jpg" alt="Burger">
+            <div class="icon">Icon 2</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="image">
+            <img src="noodle.jpg" alt="Noodles">
+            <div class="icon">Icon 3</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <button class="button">Click me</button>
+
+</body>
+</html>
